@@ -1,0 +1,105 @@
+.the_problem, .PiedPiperCoin {
+    box-sizing: border-box;
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-top: 0;
+    height: 100%;
+}
+
+.sec_the_problem, .piedpiper, .Team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec_the_problem{
+    background: #EEE;
+    background-size: cover;
+    background-position: center center;
+    height: 719px;
+}
+
+.piedpiper{
+    height: 604px;
+}
+
+.Team{
+    background: #EEE;
+    height: 845px;
+}
+
+.person {
+    display: grid;
+}
+
+.content, .content_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_row{
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    margin-top: 52px;
+}
+
+.persons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 91px;
+}
+
+.ppc_Logo {
+    padding-top: 32px;
+    margin-right: 15px;
+}
+
+.h1, .h2, .h3{
+    font-family: Roboto, sans-serif;
+    line-height: normal;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 500;
+    margin-top: 48px;
+    text-align: center;
+    color: #007765;
+    font-style: normal;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 12px;
+    color: #007765;
+    font-style: normal;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    font-style: italic;
+}
+
+p {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 32px;
+}
+
+
+

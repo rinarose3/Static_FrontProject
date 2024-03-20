@@ -1,0 +1,79 @@
+:root {
+    --container-max-width: 1219px;
+    --screensaver-height: 403px;
+    --hero-max-width: 893px;
+    --hero-height: 483px;
+    --dark-container-max-width: 540px;
+    --dark-height: 176px;
+    --font-roboto: Roboto, sans-serif;
+}
+
+.container, .hero_container, .dark_container {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.container{
+    max-width: var(--container-max-width);
+}
+
+.hero_container{
+    max-width: 893px;
+}
+
+.dark_container{
+    max-width: 540px;
+}
+
+.screensaver, .hero, .dark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screensaver{
+    background-image: url('image/screensaver.png');
+    background-size: cover;
+    background-position: center center;
+    height: var(--screensaver-height);
+    margin-top: 83px;
+}
+
+.hero {
+    background-image: url('image/image.png');
+    background-size: cover;
+    background-position: center center;
+    height: var(--hero-height);
+}
+
+.dark {
+    background-color: #333333;
+    height: var(--dark-height);
+}
+
+.screensaver__message, .hero_message, .dark__message {
+    font-family: var(--font-roboto);
+    color: #fff;
+    text-align: center;
+    
+}
+
+.screensaver__message{
+    font-style: normal;
+    font-size: 72px;
+    line-height: normal;
+}
+  
+.hero_message {
+    font-style: italic;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 500;
+}
+
+.dark__message {
+    font-style: normal;
+    font-size: 18px;
+    line-height: normal;
+    font-weight: 400;
+}
